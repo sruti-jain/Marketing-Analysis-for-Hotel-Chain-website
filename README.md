@@ -259,8 +259,6 @@ We can identify the following groups:
 
 In this case we suggest to keep all the original variables since they are just a way to provide the same information in a binary form.
 
-<hr>\clearpage
-
 # Part 2: Marketing Strategy
 
 To analyze different scenarios and identify possible strategies, we can focus on different behaviors across devices.
@@ -333,8 +331,6 @@ knitr::kable(averageRevenueSource[1:10,])
 |adquiramexico.com.mx / referral |   65988.00|
 
 Focusing on top 10 sources, we can see that direct access and organic searches on google or bing provide more than 4 times the revenues of payed sources like "cpc" and "cpm".
-
-<hr>\clearpage
 
 # Part 3: Recommendation
 
