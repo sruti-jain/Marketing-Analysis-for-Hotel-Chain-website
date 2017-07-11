@@ -1,14 +1,4 @@
----
-title: "A Market Segmentation and Purchase Drivers Process"
-output:
-  html_document:
-    css: AnalyticsStyles/default.css
-    theme: paper
-      smooth_scroll: yes
-  pdf_document:
-    includes:
-      in_header: AnalyticsStyles/default.sty
-always_allow_html: yes
+## A Market Segmentation and Purchase Drivers Process
 
 ### The Business Questions
 
@@ -23,8 +13,6 @@ We followed a 3 steps process:
 **Part 2**: Data analysis and marketing insights
 
 **Part 3**: Final recommendation and strategy
-
-<hr>\clearpage
 
 # Part 1 - Data Inspection
 
@@ -46,7 +34,6 @@ Variables description: <br>
 <li> Dummy Variable: Created dummy variables categorical data such as 'user type', 'source' and 'device type'  </li>
 </ul>
   
-
 ```r
 factor_attributes_used = c(1:19)
 factor_selectionciterion = 
@@ -253,13 +240,6 @@ Let's look at the **variance explained** as well as the **eigenvalues**
 </tbody>
 </table></div><!--/html_preserve-->
 
-<p align="center"> **Eigenvalue Plot** </p>
-
-
-```
-## Error in loadNamespace(name): there is no package called 'webshot'
-```
-
 ### Interpret the Components
 
 We can see from the chart above that we could use only 8 components.
@@ -361,4 +341,3 @@ Focusing on top 10 sources, we can see that direct access and organic searches o
 From previous analysis, we can suggest the following strategy:
 * reduce spending in payed sources;
 * provide app/mobile portal to facilitate the access from tablet;
-* .....
