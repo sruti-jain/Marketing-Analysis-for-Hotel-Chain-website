@@ -1,4 +1,4 @@
-## A Market Segmentation and Purchase Drivers Process
+## Marketing Analysis for Hotel Chain Website
 
 ### The Business Questions
 
